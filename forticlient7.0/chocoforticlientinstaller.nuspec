@@ -7,9 +7,9 @@
     <title>FortiClient 7.0 VPN Client install</title>
     <authors>Fortinet Inc</authors>
     <owners>pix0rize</owners>
-    <packageSourceUrl>PENDING</packageSourceUrl>
+    <packageSourceUrl>https://github.com/pix0rize/Chocolatey-Packages/tree/main/forticlient7.0</packageSourceUrl>
     <projectUrl>https://www.forticlient.com/downloads</projectUrl>
-    <iconUrl>PENDING</iconUrl>
+    <iconUrl>https://i.postimg.cc/kg49JFD5/forticlient70.png</iconUrl>
     <copyright>Copyright © Fortinet Inc</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>https://www.fortinet.com/content/dam/fortinet/assets/legal/EULA.pdf</licenseUrl>
@@ -23,18 +23,17 @@ ___
 To use choco:// protocol URLs, install [(unofficial) choco:// Protocol support ](https://chocolatey.org/packages/choco-protocol-support)
 ___
 
-![Screenshot of FortiClient VPN](PENDING URL)	
-
+![Screenshot of FortiClient VPN](https://i.postimg.cc/Y0nnbg7X/forticlient70-screenshot.png)	
 
 ___
 
-Click here to [Patreon-ize](https://www.patreon.com/bcurran3) the package maintainer.
+
 ___
 
 </description>
     <releaseNotes>PENDING HTTP</releaseNotes>
   </metadata>
   <files>
-    <file src="installer\**" target="installer" />
+    <file src="tools\**" target="tools" />
   </files>
 </package>
