@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one.-->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>forticlient70</id>
+    <version>7.0.0</version>
+    <title>FortiClient 7.0 VPN Client install</title>
+    <authors>Fortinet Inc</authors>
+    <owners>pix0rize</owners>
+    <packageSourceUrl>PENDING</packageSourceUrl>
+    <projectUrl>https://www.forticlient.com/downloads</projectUrl>
+    <iconUrl>PENDING</iconUrl>
+    <copyright>Copyright © Fortinet Inc</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://www.fortinet.com/content/dam/fortinet/assets/legal/EULA.pdf</licenseUrl>
+    <docsUrl>https://docs.fortinet.com/product/forticlient/7.0</docsUrl>
+    <mailingListUrl>https://forum.fortinet.com/</mailingListUrl>
+    <tags>forticlient fortinet vpnclient</tags>
+    <summary>SSL and IPSec VPN client for Fortinet firewalls.</summary>
+    <description>
+___
+### [choco://forticlient70](choco://forticlient70)
+To use choco:// protocol URLs, install [(unofficial) choco:// Protocol support ](https://chocolatey.org/packages/choco-protocol-support)
+___
+
+![Screenshot of FortiClient VPN](PENDING URL)	
+
+
+___
+
+Click here to [Patreon-ize](https://www.patreon.com/bcurran3) the package maintainer.
+___
+
+</description>
+    <releaseNotes>PENDING HTTP</releaseNotes>
+  </metadata>
+  <files>
+    <file src="installer\**" target="installer" />
+  </files>
+</package>
